@@ -1,4 +1,4 @@
-name: "mg-sem2019"
+name: "lvm-cfa"
 author: "Rizqy Amelia Zein"
 output_dir: "docs"
 exclude: ["*.xls","*.R","/slides","*.pptx","*.jpg","*.doc"]
