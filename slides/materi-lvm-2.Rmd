@@ -1,8 +1,8 @@
 ---
-title: "Workshop MG-SEM Bagian 2"
-subtitle: "Dies Natalis 36th"
+title: "Workshop LVM Bagian 2"
+subtitle: "UNNES"
 author: "Rizqy Amelia Zein"
-date: "2019/09/10 (updated: `r Sys.Date()`)"
+date: "2020/01/29 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
@@ -33,7 +33,7 @@ class: title-slide, spaced
 
 <img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
 
-# Multigroup Structural Equation Modeling (SEM)
+# Workshop Latent Variable Modeling (LVM)
 ## Menggunakan `JASP`: Bagian 2 - Korelasi
 <br>
 ### <b>Rizqy Amelia Zein</b>
@@ -50,11 +50,11 @@ class: inverse
 
 --
 
-#### SEM merupakan teknik yang digunakan untuk **mengestimasi korelasi** antar-variabel
+#### LVM-SEM merupakan teknik yang digunakan untuk **mengestimasi korelasi** antar-variabel
 
 --
 
-#### Untuk melakukan SEM, peneliti tidak harus meng*input* data kasar (*raw data*), tetapi ada pilihan untuk meng*input* *correlation* atau *variance-covariance matrix*.
+#### Untuk melakukan SEM, peneliti tidak harus menyediakan data kasar (*raw data*), tetapi ada pilihan untuk meng*input* *correlation* atau *variance-covariance matrix*.
 
 ![](https://media.giphy.com/media/ChzfTLSi47FYc/giphy.gif)
 
@@ -204,7 +204,7 @@ class: inverse, middle, center
 * Yang bisa dilakukan
   - Tinjau kembali hipotesis modelnya
   - Kurangi jumlah faktor laten dengan 'membuang' jalur/korelasi yang bermasalah
-  - Identifikasi variabel yang terlibat multikolinearitas. Masukkan salah satu saja dalam model, sisanya jangan.
+  - Identifikasi variabel yang terlibat multikolinearitas. Masukkan salah satu saja dalam model, sisanya sisihkan
 
 ---
 
@@ -228,25 +228,6 @@ class: inverse, middle, center
   
 * Ada banyak perbedaan pendapat mengenai metrik mana yang harus dilaporkan, tetapi...
   - **Selalu laporkan *unstandarised solution/estimates* dan *standard error*nya** (boleh juga dengan *standarised solution/estimates*, boleh juga tidak)
-
----
-
-## TUGAS 1: Membuat *correlation matrix* dan melakukan *koreksi atenuasi*
-
-### Demonstrasi
-
-Menggunakan [Dataset Contoh Korelasi](https://rameliaz.github.io/mg-sem-workshop/corr.jasp)
-
-[[Dataset]](https://rameliaz.github.io/mg-sem-workshop/corr.jasp) [[Matriks di Excel]](https://rameliaz.github.io/mg-sem-workshop/contoh-atenuasi.xlsx)
-
-## TUGAS
-
-* Apabila diketahui **reliabilitas skala** masing-masing dimensi Big 5 (neu=0.78, con=0.76, agr=0.34, ext=0.45, op=0.67), buatkan matriks korelasi antar-dimensi
-* Lakukan koreksi atenuasi
-* Apakah matriksnya *non-positive definite*? Variabel apa saja yang terlibat?
-* Apa kira-kira yang menyebabkan kedua variabel tsb korelasinya *non-positive definite*?
-
-[[Unduh Dataset]](https://rameliaz.github.io/mg-sem-workshop/latihancorr.csv) [[Kumpulkan Tugasnya Disini]](https://forms.gle/rS5HjhTAFBJnRYRA6)
 
 ---
 

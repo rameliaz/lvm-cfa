@@ -1,8 +1,8 @@
 ---
-title: "Workshop MG-SEM Bagian 1"
-subtitle: "Dies Natalis 36th"
+title: "Workshop LVM Bagian 1"
+subtitle: "UNNES"
 author: "Rizqy Amelia Zein"
-date: "2019/09/10 (updated: `r Sys.Date()`)"
+date: "2020/01/29 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
@@ -33,7 +33,7 @@ class: title-slide, spaced
 
 <img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
 
-# Multigroup Structural Equation Modeling (SEM)
+# Workshop Latent Variable Modeling (LVM)
 ## Menggunakan `JASP`: Bagian 1 - Pengantar
 <br>
 ### <b>Rizqy Amelia Zein</b>
@@ -61,11 +61,11 @@ Kode tersedia secara terbuka di [repositori](https://github.com/rameliaz/mlm-lme
 
 class: inverse, middle
 
-# *Outline* Hari 1: Jumat, 22 November 2019
+# *Outline*
 
 .pull-left[
 
-## Sebelum istirahat (09.00-11.30)
+## Sebelum istirahat (07.30-12.00)
 
 **Pengantar**
 * Apa itu *structural equation modeling* (SEM)?
@@ -85,14 +85,12 @@ class: inverse, middle
 
 class: middle
 
-# *Outline* Hari 1: Jumat, 22 November 2019
-
 .pull-left[
 
-## Sebelum istirahat (09.00-11.30)
+## Sebelum istirahat (07.30-12.00)
 
 * Jenis-jenis koefisien korelasi
-* Faktor-faktor yang membuat koefisien korelasi bervariasiK
+* Faktor-faktor yang membuat koefisien korelasi bervariasi
 * [Koreksi atenuasi](https://methods.sagepub.com/reference/encyc-of-research-design/n81.xml) dan *measurement error*
 * *Variance-covariance* dan *correlation matrix*
 * *WARNING! Covariance/correlation matrix is not positive definite*
@@ -112,11 +110,9 @@ class: middle
 
 class: middle
 
-# *Outline* Hari 1: Jumat, 22 November 2019
-
 .pull-left[
 
-## Setelah istirahat (13.00-16.00)
+## Sesudah istirahat (13.00-16.00)
 
 * Definisi *path model*
 * Nama variabel dan koefisien jalur (*path coefficients*)
@@ -139,11 +135,9 @@ class: middle
 
 class: middle, inverse
 
-# *Outline* Hari 2: Sabtu, 23 November 2019
-
 .pull-left[
 
-## Sebelum istirahat (09.00-12.00)
+## Sesudah istirahat (13.00-16.00)
 
 * Definisi *factor analysis*
 * *Exploratory* vs *confirmatory factor analysis*
@@ -153,6 +147,11 @@ class: middle, inverse
 * Variabel indikator (reflektif vs formatif)
 * *Correlated error variances*
 * Metode estimasi
+* Jenis-jenis kriteria untuk menilai ketepatan model (*model fit*)
+  * [*Model fit*](http://www.ejbrm.com/issue/download.html?idArticle=183)
+  * *Model comparison*/*Incremental fit indices*
+  * *Model parsimony*
+  * *Parameter fit*
 * Menuliskan hasil analisis CFA dalam laporan penelitian
 
 ]
@@ -165,102 +164,13 @@ class: middle, inverse
 
 ---
 
-class: middle
-
-# *Outline* Hari 2: Sabtu, 23 November 2019
-
-.pull-left[
-
-## Setelah istirahat (13.00-16.00)
-
-##### **Dasar-dasar Structural Equation Modeling (SEM)**
-* Dasar-Dasar SEM: Model struktural & pengukuran
-* Tahapan *modeling* dengan menggunakan SEM
-  * Spesifikasi model
-  * Identifikasi model
-  * Estimasi model
-  * Menguji model
-  * Memodifikasi model
-* *Degree of freedom*
-* *Underidentified*, *just-identified*, dan *overidentified model*
-
-]
-
-.pull-right[
-
-![](https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif)
-
-]
-
----
-
-class: middle
-
-# *Outline* Hari 2: Sabtu, 23 November 2019
-
-.pull-left[
-
-## Setelah istirahat (13.00-16.00)
-
-##### **Dasar-dasar Structural Equation Modeling (SEM)**
-* Jenis-jenis kriteria untuk menilai ketepatan model (*model fit*)
-  * [*Model fit*](http://www.ejbrm.com/issue/download.html?idArticle=183)
-  * *Model comparison*/*Incremental fit indices*
-  * *Model parsimony*
-  * *Parameter fit*
-* Menguji hipotesis
-  * *Statistical power*
-  * Ukuran sampel
-* Membandingkan antara pendekatan dua-langkah dengan empat-langkah *modeling* dengan SEM
-* Menuliskan hasil analisis SEM dalam laporan penelitian
-
-]
-
-.pull-right[
-
-![](https://media.giphy.com/media/LNE01Z89j9gis/giphy.gif)
-
-]
-
----
-
-class: middle
-
-# *Outline* Hari 2: Sabtu, 23 November 2019
-
-.pull-left[
-
-## Setelah istirahat (13.00-16.00)
-
-##### **Multiple-group SEM (MG-SEM)** 
-* Kapan perlu menggunakan MG-SEM?
-* *Measurement invariance*
-  * *Configural invariance*
-  * *Weak/metric invariance*
-  * *Strong/scalar invariance*
-  * *Strict/residual invariance*
-  * *Homogeneity of latent variable variances*
-  * *Homogeneity of factor means*
-* Mengevaluasi *measurement invariance*
-* Menuliskan hasil analisis MG-SEM dalam laporan penelitian
-
-]
-
-.pull-right[
-
-![](https://media.giphy.com/media/PBM14uaJCbp72/giphy.gif)
-
-]
-
----
-
 class: inverse, center, middle
 
 .pull-left[
 
-# Apa itu *structural equation modeling*?
+# Apa itu *latent variable modeling*?
 
-## Pernahkah bapak/ibu menggunakan SEM sebelumnya?
+## Pernahkah bapak/ibu menggunakan *structural equation modeling* (SEM) sebelumnya?
 ## Untuk apa SEM digunakan?
 
 ]
@@ -274,13 +184,13 @@ class: inverse, center, middle
 
 ---
 
-# SEM adalah...
+# LVM adalah...
 
-* Memuat **hubungan** antara **observed** dan **latent variables** dalam berbagai bentuk model teoritis. SEM memungkinkan peneliti untuk melakukan **pengujian hipotesis** yang berkaitan dengan model tersebut.
+* Model yang memuat **hubungan** antara **observed** dan **latent variables** dalam berbagai bentuk model teoritis. LVM memungkinkan peneliti untuk melakukan **pengujian hipotesis** yang berkaitan dengan model tersebut.
 
-* Model SEM mengasumsikan (hipotesis) bahwa seperangkat variabel (*observed*) mendefinisikan sebuah konstruk **laten**, dan menggambarkan bagaimana hubungan antara konstruk-konnstruk laten ini.
+* LVM mengasumsikan (hipotesis) bahwa seperangkat variabel (*observed*) mendefinisikan sebuah konstruk **laten**, dan menggambarkan bagaimana hubungan antara konstruk-konnstruk laten ini.
 
-* Tujuan SEM adalah untuk mengetahui apakah model teoritik yang diuji peneliti **didukung oleh data**
+* Tujuan LVM adalah untuk mengetahui apakah model teoritik yang diuji peneliti **didukung oleh data**
   - Apabila data memberikan **bukti yang mendukung** bahwa hubungan antar konstruk/variabel terjadi, maka **mungkin** hubungan tersebut memang benar-benar ada di populasi.
   - Apabila data **tidak memberikan bukti yang mendukung** korelasi yang dihipotesiskan, maka peneliti dapat melakukan **re-spesifikasi model** dan menguji kembali model yang sudah dire-spesifikasi tersebut, atau **menyusun ulang model yang baru** untuk kemudian diuji kembali.
   
@@ -380,7 +290,7 @@ class: inverse, center, middle
 * Model pengukuran (*measurement model*/*confirmatory factor analysis*)
   - Menguji apakah aitem-aitem dari skala Psikologi (yang mengukur konstruk laten tertentu) memang betul-betul mengukur konstruk tersebut `r fa("arrow-circle-right")` validitas konstruk.
 
-* SEM biasanya mengandung setidaknya dua model, yaitu model pengukuran dan model struktural (regresi/jalur).
+* SEM (*full model*) biasanya mengandung setidaknya dua model, yaitu model pengukuran dan model struktural (regresi/jalur).
 
 ]
 
@@ -392,20 +302,20 @@ class: inverse, center, middle
 
 ---
 
-# Mengapa SEM dilakukan?
+# Mengapa LVM dilakukan?
 
 * Peneliti sudah memiliki kesadaran bahwa ia harus menyelidiki **beberapa variabel penelitian** secara bersamaan untuk menjawab pertanyaan penelitiannya.
 
-* Ada kesadaran bahwa peneliti selama ini mengabaikan faktor *error* pengkuran. SEM membantu peneliti untuk **mengurangi efek *measurement error*** terhadap hasil analisis data. Untuk itu, peneliti dapat sekaligus menguji properti/kualitas psikometrik instrumen yang digunakan.
+* Ada kesadaran bahwa peneliti selama ini mengabaikan faktor *error* pengkuran. LVM membantu peneliti untuk **mengurangi efek *measurement error*** terhadap hasil analisis data. Untuk itu, peneliti dapat sekaligus menguji properti/kualitas psikometrik instrumen yang digunakan.
 
-* Selama beberapa dekade kebelakang, SEM termasuk teknik analisis data yang sudah cukup **matang pengembangannya**, dan dapat mudah dilakukan dengan bantuan perangkat lunak.
+* Selama beberapa dekade kebelakang, LVM termasuk teknik analisis data yang sudah cukup **matang pengembangannya**, dan dapat mudah dilakukan dengan bantuan perangkat lunak.
 
-* Perangkat lunak SEM sudah cukup *user-friendly*
-  - `JASP` adalah perangkat lunak SEM yang hanya memerlukan *coding* yang sangat minimal.
+* Perangkat lunak LVM sudah cukup *user-friendly*
+  - `JASP` adalah perangkat lunak LVM yang hanya memerlukan *coding* yang sangat minimal.
   - Namun `JASP` fungsinya agak terbatas, karena tidak menyediakan opsi *power analysis* (digunakan untuk merencanakan jumlah sampel) dan simulasi.
   - Selain itu, peneliti dapat menggunakan `Onyx`, `LISREL`, `AMOS`, `EQX`, `Mplus`, `STATA`, dsb.
   
-* SEM adalah teknik yang lebih *sophisticated* untuk menggambarkan **hubungan antar-variabel** karena membuang **error pengukuran** dari estimasi korelasi, dan mengurangi bias estimasi model karena konstruk laten diperlakukan sebagaimana mestinya, bukan **dianggap** seolah-olah *observed variable*.
+* LVM adalah teknik yang lebih *sophisticated* untuk menggambarkan **hubungan antar-variabel** karena membuang **error pengukuran** dari estimasi korelasi, dan mengurangi bias estimasi model karena konstruk laten diperlakukan sebagaimana mestinya, bukan **dianggap** seolah-olah *observed variable*.
 
 ---
 
@@ -414,12 +324,12 @@ class: inverse, center, middle
 .pull-left[
 
 * *Exploratory factor analysis* (EFA)
+* *Full model* SEM
 * *A priori power analysis*, Monte Carlo *simulation*, dan *accuracy in parameter estimation* (AIPE) `r fa("arrow-circle-right")` merupakan teknik-teknik yang digunakan untuk mengestimasi jumlah sampel
 * *Mixture model* (SEM untuk desain penelitian longitudinal) `r fa("arrow-circle-right")` *latent growth curve*
-* Model SEM dengan *missing data*
-* Model SEM dengan variabel moderator/mediator, atau *moderated mediation* atau *mediated moderation*
-* Model SEM ketika variabel indikatornya *dichotomous*
-* *Hierarchical latent variable model* (*second-order CFA*, misalnya)
+* Model SEM dengan *missing data*, ada variabel moderator/mediator, atau *moderated mediation* atau *mediated moderation*, atau ketika variabel indikatornya *dichotomous*
+* *Hierarchical latent variable model*
+* *Second-order CFA*
 * SEM dengan model pengukuran formatif dan *multiple indicators, multiple causes* (MIMIC)
 
 ]
@@ -434,7 +344,7 @@ class: inverse, center, middle
 
 class: inverse
 
-# Ketika menggunakan SEM, maka asumsinya...
+# Ketika menggunakan LVM-SEM, maka asumsinya...
 
 .pull-left[
 

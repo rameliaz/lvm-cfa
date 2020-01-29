@@ -1,8 +1,8 @@
 ---
-title: "Workshop MG-SEM Bagian 3"
-subtitle: "Dies Natalis 36th"
+title: "Workshop LVM Bagian 3"
+subtitle: "UNNES"
 author: "Rizqy Amelia Zein"
-date: "2019/09/10 (updated: `r Sys.Date()`)"
+date: "2020/01/29 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
@@ -33,7 +33,7 @@ class: title-slide, spaced
 
 <img src="libs/unair.png" style="width:15%;" class="fancyimage"/> <img src="libs/STUA.png" style="width:23%;" class="fancyimage"/> <img src="libs/ina-logo.jpg" style="width:7%;" class="fancyimage"/> <img src="libs/igdore.png" style="width:23%;" class="fancyimage"/>
 
-# Multigroup Structural Equation Modeling (SEM)
+# Workshop Latent Variable Modeling (LVM)
 ## Menggunakan `JASP`: Bagian 3 - Model Jalur (*Path Model*) dan Model Regresi
 <br>
 ### <b>Rizqy Amelia Zein</b>
@@ -69,7 +69,7 @@ class: inverse
 
 .pull-left[
 
-* Analisis jalur sebenarnya adalah **bentuk yang lebih *sophisticated*** dari korelasi, dan
+* Analisis jalur sebenarnya adalah **bentuk yang lebih kompleks dari korelasi, dan
 
 ### **Correlation does not imply causation**
 
@@ -161,7 +161,7 @@ class: center, middle
 
 ---
 
-## TUGAS 2: Membuat diagram jalur
+## TUGAS 1: Membuat diagram jalur
 
 .pull-left[
 
@@ -191,7 +191,7 @@ Ia menduga temannya yang lebih *conscientious* dan lebih tua akan lebih kecil ke
 
 * **usia** = Usia partisipan
 
-### Buatlah diagram jalur beserta koefisien jalurnya. Bisa dengan PowerPoint atau *software* yang lain.
+### Buatlah diagram jalur beserta koefisien jalurnya. Bisa dengan `MS PowerPoint` atau *software* yang lain.
 
 [[Unggah file diagram jalur disini]](https://forms.gle/VpBzNxT26zXsBBAJ6)
 
@@ -330,7 +330,7 @@ mandiri ~ trust
 
 ---
 
-# TUGAS 3: Menulis *syntax* `lavaan`
+# TUGAS 2: Menulis *syntax* `lavaan`
 
 ### Tulislah *syntax* `lavaan` dari diagram jalur yang sudah dibuat di TUGAS 2
 
