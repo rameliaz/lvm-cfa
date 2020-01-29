@@ -38,6 +38,8 @@ navbar:
       href: contoh-cfa.jasp
     - text: "Dataset Contoh CFA (*.csv)"
       href: contoh-cfa.csv
+    - text: "Dataset Latihan CFA (*.csv)"
+      href: dataset-wave1.csv
   - text: "Survei"  
     menu: 
     - text: "Evaluasi Workshop"

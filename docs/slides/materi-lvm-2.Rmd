@@ -94,7 +94,7 @@ class: inverse
   - Ada beberapa pilihan yang bisa dilakukan, yaitu `r fa("arrow-circle-right")` *listwise deletion*, *pairwise deletion*, dan melakukan *data imputation*.
   - *Listwise deletion* tidak disarankan karena membuat jumlah sampel turun drastis `r fa("arrow-circle-right")` mengurangi *statistical power*.
   
-#### Silahkan unduh dan buka [**Dataset Korelasi**](https://rameliaz.github.io/mg-sem-workshop/corr.jasp), untuk melihat contoh.
+#### Silahkan unduh dan buka [**Dataset Contoh Korelasi**](https://rameliaz.github.io/lvm-cfa/corr.jasp), untuk melihat contoh.
 
 ---
 

@@ -171,7 +171,7 @@ class: inverse, center, middle
 # Apa itu *latent variable modeling*?
 
 ## Pernahkah bapak/ibu menggunakan *structural equation modeling* (SEM) sebelumnya?
-## Untuk apa SEM digunakan?
+## Untuk apa LVM-SEM digunakan?
 
 ]
 
@@ -348,7 +348,7 @@ class: inverse
 
 .pull-left[
 
-### `r emo::ji("speaker")` Data berdistribusi normal (*multivariate*)
+### `r emo::ji("speaker")` Data berdistribusi normal (*multivariate normality*)
 ### `r emo::ji("speaker")` Korelasi antar variabel sifatnya linear
 ]
 

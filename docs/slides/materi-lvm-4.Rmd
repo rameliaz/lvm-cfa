@@ -339,9 +339,9 @@ class: inverse, middle, center
 
 # TUGAS 3: Mencoba *confirmatory factor analysis*
 
-* Unduh [Dataset Latihan SEM](https://rameliaz.github.io/mg-sem-workshop/dataset-wave1.csv)
+* Unduh [Dataset Latihan SEM](https://rameliaz.github.io/lvm-cfa/dataset-wave1.csv)
 
-* Unduh [Kamus Data disini](https://rameliaz.github.io/mg-sem-workshop/codebook-kamusdata.xlsx)
+* Unduh [Kamus Data disini](https://rameliaz.github.io/lvm-cfa/codebook-kamusdata.xlsx)
 
 * Lakukan CFA pada skala *right-wing authoritarianism* 
   - Diukur dengan skala *Likert*, 15 aitem dengan 9 pilihan jawaban
