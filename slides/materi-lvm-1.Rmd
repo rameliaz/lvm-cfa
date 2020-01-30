@@ -68,9 +68,9 @@ class: inverse, middle
 ## Sebelum istirahat (07.30-12.00)
 
 **Pengantar**
-* Apa itu *structural equation modeling* (SEM)?
-* Mengapa dan pada kondisi seperti apa SEM diperlukan?
-* Beberapa pilihan perangkat lunak untuk mengeksekusi SEM
+* Apa itu *latent variable modeling* (LVM) dan *structural equation modeling* (SEM)?
+* Mengapa dan pada kondisi seperti apa LVM-SEM diperlukan?
+* Beberapa pilihan perangkat lunak untuk mengeksekusi LVM-SEM
 * Yang tidak dicakup dalam *workshop* serta keterbatasan JASP
 
 ]
