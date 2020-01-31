@@ -302,7 +302,7 @@ trust =~ trust1 + trust2 + trust3 + trust4 + trust5
 # Measurement error (residual)
 mandiri1 ~~ mandiri1
 mandiri2 ~~ mandiri2
-mandiri3 ~~ trust3
+mandiri3 ~~ mandiri3
 mandiri4 ~~ mandiri4
 
 trust1 ~~ trust1

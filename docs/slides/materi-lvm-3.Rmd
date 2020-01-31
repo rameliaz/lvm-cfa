@@ -48,7 +48,7 @@ class: inverse
 
 # Analisis jalur
 
-* *Path model* merupakan kelanjutan dari model regresi karena terdiri dari **beberapa model regresi** sekaligus dapat digunakan untuk menguji *direct*, *indirect*, dan *correlated effects*.
+* *Path model* merupakan kelanjutan dari model regresi karena terdiri dari **beberapa model regresi** sekaligus sehingga dapat digunakan untuk menguji *direct*, *indirect*, dan *correlated effects*.
 
 * *Path model* disusun secara visual dengan aturan tertentu (konsensus)
   - Garis satu arah menggambarkan *direct effects*, yang merefleksikan *keterkaitan langsung* antara satu variabel dengan variabel lainnya. Asumsinya, **tidak ada variabel lain diluar model** yang berkorelasi dengan variabel tersebut.
@@ -61,13 +61,13 @@ class: inverse
 
 .pull-left[
 
-* Analisis jalur sebenarnya adalah **bentuk yang lebih kompleks dari korelasi, dan
+* Analisis jalur sebenarnya adalah **bentuk yang lebih kompleks** dari korelasi, dan **yang perlu diingat**:
 
 ### **Correlation does not imply causation**
 
 Yang harus dipenuhi sebagai bukti kausalitas:
 * Ada **urutan waktu** (*temporal order*) `r fa("arrow-circle-right")` maka desain penelitian *panel*/*longitudinal*/*time series* harus digunakan
-* Adanya **korelasi** antara kedua variabel
+* Adanya **korelasi** (*covariance*) antara kedua variabel
 * Peneliti harus melakukan **kontrol** atas variabel lain yang mungkin menjelaskan korelasi tsb (melakukan manipulasi, mengestimasi *part* atau *partial correlation*)
 * Peneliti melakukan **manipulasi** pada variabel X, yang menyebabkan perubahan pada variabel Y
 
@@ -302,7 +302,7 @@ trust =~ trust1 + trust2 + trust3 + trust4 + trust5
 # Measurement error (residual)
 mandiri1 ~~ mandiri1
 mandiri2 ~~ mandiri2
-mandiri3 ~~ trust3
+mandiri3 ~~ mandiri3
 mandiri4 ~~ mandiri4
 
 trust1 ~~ trust1
@@ -324,7 +324,7 @@ mandiri ~ trust
 
 # TUGAS 2: Menulis *syntax* `lavaan`
 
-### Tulislah *syntax* `lavaan` dari diagram jalur yang sudah dibuat di TUGAS 2
+### Tulislah *syntax* `lavaan` dari diagram jalur yang sudah dibuat di TUGAS 1
 
 #### [Klik disini untuk mengisi lembar kerja](https://forms.gle/ARMzU4trUgqRv8hj9)
 

@@ -88,7 +88,7 @@ class: inverse
 * **Jumlah sampel**
   - Jumlah sampel yang terlalu sedikit akan memberikan estimasi yang kurang akurat (karena *standard error*nya besar)
 * ***Sampling variance***
-  - Yang kemudian berfek pada *confidence interval*, *effect size* (koefisien korelasi itu sendiri), dan *statistical power*
+  - Yang kemudian berefek pada *confidence interval*, *effect size* (koefisien korelasi itu sendiri), dan *statistical power*
 * ***Missing data***
   - Kalau data tidak lengkap, estimasi koefisien korelasi akan langsung terdampak.
   - Ada beberapa pilihan yang bisa dilakukan, yaitu `r fa("arrow-circle-right")` *listwise deletion*, *pairwise deletion*, dan melakukan *data imputation*.
