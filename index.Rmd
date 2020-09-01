@@ -93,12 +93,12 @@ Berikut adalah *outline* materi *workshop*:
 
 #### Sesi 1 (09.00-12.00)
 
-[Klik untuk melihat video]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L38yXlxbO-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 #### Sesi 2 (13.00-16.00)
 
-[Klik untuk melihat video]()
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6AtXbwYrs0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Pembaruan dan koreksi
 

@@ -89,12 +89,13 @@ Berikut adalah *outline* materi *workshop*:
 
 #### Sesi 1 (09.00-12.00)
 
-[Klik untuk melihat video]()
+[Klik disini untuk melihat video](https://www.youtube.com/watch?v=L38yXlxbO-Y&lc=UgzZA6gG7CiWymLEznN4AaABAg)
 
 
 #### Sesi 2 (13.00-16.00)
 
-[Klik untuk melihat video]()
+[Klik disini untuk melihat video](https://www.youtube.com/watch?v=6AtXbwYrs0s)
+
 
 ## Pembaruan dan koreksi
 

@@ -13,6 +13,7 @@
 
 <title>index.utf8</title>
 
+<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -23,6 +24,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
 <script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
@@ -546,11 +548,13 @@ div.tocify {
 <h2>Video rekaman</h2>
 <div id="sesi-1-09.00-12.00" class="section level4">
 <h4>Sesi 1 (09.00-12.00)</h4>
-<p><a href="">Klik untuk melihat video</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L38yXlxbO-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 </div>
 <div id="sesi-2-13.00-16.00" class="section level4">
 <h4>Sesi 2 (13.00-16.00)</h4>
-<p><a href="">Klik untuk melihat video</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6AtXbwYrs0s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 </div>
 </div>
 <div id="pembaruan-dan-koreksi" class="section level2">
@@ -629,7 +633,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
